@@ -17,7 +17,7 @@ import org.omg.CORBA.Any;
  */
 public class Test10 {
     public static void main(String[] args) throws IOException {
-        Any file path. final Path path = Paths.get(...);
+        Any file path. final Path path = Paths.get(...); //Any file path Syntax is wrong placed
         Files.lines(path).forEach(System.out::println);
     }
 }
